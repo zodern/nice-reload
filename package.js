@@ -1,5 +1,5 @@
 Package.describe({
-  version: "1.0.3",
+  version: "1.1.0",
   name: "zodern:nice-reload",
   summary: "Trigger hot reload with ctr + l",
   debugOnly: true,
