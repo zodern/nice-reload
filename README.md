@@ -1,5 +1,5 @@
 # nice-reload
-Meteor package to trigger hot reloads with ctr + n
+Meteor package to trigger hot reloads with ctr + l
 
 ### Install:
 ``` bash
