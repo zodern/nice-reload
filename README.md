@@ -7,5 +7,5 @@ meteor add zodern:nice-reload
 ```
 
 ### User
-When the browser window is focused, just press ctr + n.
+When the browser window is focused, just press ctr + l.
 It adds the global function `niceReload`.

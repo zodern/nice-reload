@@ -17,7 +17,7 @@ Template.body.onCreated(function () {
 
   $(document).keydown(function(e) {
     console.log(ctrlDown, e.keyCode);
-    if (ctrlDown && e.keyCode === 78) {
+    if (ctrlDown && e.keyCode === 76) {
       niceReload();
     }
   });
