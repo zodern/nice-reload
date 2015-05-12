@@ -7,7 +7,7 @@ Package.describe({
 });
 
 Package.onUse(function (api) {
-  api.versionsFrom('1.0.0');
+  api.versionsFrom('1.0');
 
   api.use('underscore', 'client');
   api.use('reload', 'client');
