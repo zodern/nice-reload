@@ -1,9 +1,10 @@
 Package.describe({
   version: "1.0.0",
   name: "zodern:nice-reload",
+  summary: "Trigger live reload with ctr + n",
   debugOnly: true,
   documentation: 'README.md',
-  git: "https://github.com/something/something.git",
+  git: "https://github.com/zodern/nice-reload.git"
 });
 
 Package.onUse(function (api) {
