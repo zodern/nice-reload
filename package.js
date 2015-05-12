@@ -1,5 +1,5 @@
 Package.describe({
-  version: "1.0.1",
+  version: "1.0.2",
   name: "zodern:nice-reload",
   summary: "Trigger live reload with ctr + l",
   debugOnly: true,
