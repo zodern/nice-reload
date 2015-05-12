@@ -1,5 +1,5 @@
 // global
-niceReload = function () {
+var niceReload = function () {
   Reload._reload();
 };
 
