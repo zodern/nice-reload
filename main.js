@@ -4,19 +4,23 @@ var niceReload = function () {
 };
 
 Template.body.onCreated(function () {
-  var ctrlDown = false;
-  var ctrlKey = 17;
-
+  var modifierDown = false;
+  // ctr key
+  var modifierKey = 17;
+  if (navigator.appVersion.indexOf("Win")!=-1) {
+    // use alt key on windows because chrome uses ctr+L
+    modifierKey = 18
+  }
   $(document).keydown(function(e)
   {
-    if (e.keyCode == ctrlKey) ctrlDown = true;
+    if (e.keyCode == modifierKey) modifierDown = true;
   }).keyup(function(e)
   {
-    if (e.keyCode == ctrlKey) ctrlDown = false;
+    if (e.keyCode == modifierKey) modifierDown = false;
   });
 
   $(document).keydown(function(e) {
-    if (ctrlDown && e.keyCode === 76) {
+    if (modifierDown && e.keyCode === 76 /* L key */) {
       niceReload();
     }
   });
