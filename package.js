@@ -1,5 +1,5 @@
 Package.describe({
-  version: "1.1.0",
+  version: "2.0.0",
   name: "zodern:nice-reload",
   summary: "Trigger hot reload with ctr + l (alt + l on Windows)",
   debugOnly: true,
@@ -8,7 +8,7 @@ Package.describe({
 });
 
 Package.onUse(function (api) {
-  api.versionsFrom('1.0');
+  api.versionsFrom('1.1');
 
   api.use('underscore', 'client');
   api.use('reload', 'client');

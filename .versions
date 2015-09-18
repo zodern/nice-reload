@@ -22,4 +22,4 @@ spacebars-compiler@1.0.6
 templating@1.1.1
 tracker@1.0.7
 underscore@1.0.3
-zodern:nice-reload@1.0.3
+zodern:nice-reload@2.0.0
