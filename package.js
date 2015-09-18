@@ -1,7 +1,7 @@
 Package.describe({
   version: "1.1.0",
   name: "zodern:nice-reload",
-  summary: "Trigger hot reload with ctr + l",
+  summary: "Trigger hot reload with ctr + l (alt + l on Windows)",
   debugOnly: true,
   documentation: 'README.md',
   git: "https://github.com/zodern/nice-reload.git"
